@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base.ContainerWithoutPadding"
+    android:background="@color/darker_grey" >
+
+    <LinearLayout
+        android:id="@+id/action_bar_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:minWidth="@dimen/cell_size"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/action_bar_up_button"
+            style="@style/Base.Wrapper"
+            android:background="@null"
+            android:clickable="false"
+            android:src="@drawable/ic_menu" />
+    </LinearLayout>
+
+    <ImageView
+        style="@style/Base.Wrapper"
+        android:layout_centerInParent="true"
+        android:src="@drawable/img_togg_ab" />
+
+</RelativeLayout>

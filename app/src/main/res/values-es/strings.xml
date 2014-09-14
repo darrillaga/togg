@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- New Strings -->
+
+    <string name="app_name">Togg</string>
+    <string name="api_service_path">https://www.toggl.com/api/v8</string>
+    <string name="websocket_api_service_path">wss://stream.toggl.com/ws</string>
+    <string name="analytics_notification">Togg usa Google Analytics para mejorar la experiencia de usuario. Puedes deshabilitar esta opción desde la pantalla de configuración.</string>
+    <string name="analytics_opt">analytics_opt</string>
+    <string name="analytics_first_time_key">analytics_first_time_key</string>
+    <string name="analytics_label">Habilitar/Deshabilitar Google Analytics</string>
+    <string name="login">Entrar</string>
+    <string name="logging_in">Accediendo &#8230;</string>
+    <string name="timer_hint">En que estás trabajando?</string>
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+    <string name="details_view_collapsed_owner">details_view_collapsed_owner</string>
+    <string name="zero_time">0 seg</string>
+    <string name="editing_time_entry">Editando registro de tiempo</string>
+    <string name="drawer_open">Abrir menú lateral</string>
+    <string name="drawer_close">Cerrar menú lateral</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="new_account_answer">Cuenta nueva?</string>
+    <string name="already_have_an_account_answer">Ya tienes una cuenta?</string>
+    <string name="google_sign_in">Acceso con Google</string>
+    <string name="google_sign_up">Regsitro con Google</string>
+    <string name="logout">Salir</string>
+    <string name="from">Desde</string>
+    <string name="to">Hasta</string>
+    <string name="empty_spinner">Vacío</string>
+    <string name="default_spinner_prompt">Seleccionar</string>
+    <string name="no_project">Sin proyecto</string>
+    <string name="empty_time_entries">No hay registros de tiempo</string>
+    <string name="empty_time_entries_list">Presione en el contador o refresque la lista para empezar </string>
+    <string name="beginning">Inicio</string>
+    <string name="stop">Parar</string>
+    <string name="date">Fecha</string>
+    <string name="end">Fin</string>
+    <string name="seconds_abbr">seg</string>
+    <string name="minutes_abbr">min</string>
+    <string name="hours_abbr">h</string>
+
+    <!-- Login -->
+
+    <string name="emailTextIsNotEmptyValidationError">Debes ingresar un email</string>
+    <string name="passwordTextIsNotEmptyValidationError">Debes ingresar una contraseña</string>
+    <string name="passwordTextIsEqualValidationError">La contraseña y la confirmación deben ser iguales</string>
+
+    <!-- Settings -->
+
+    <string name="continuous_timer_notification_available_summary">Esta opción habilita una notificación en la barra de notificaciones cuando un contador está corriendo y despliega su información</string>
+    <string name="continuous_timer_notification_available_title">Notificación de contador</string>
+    <string name="settings">Configuración</string>
+    <string name="uppercase_settings">CONFIGURACIÓN</string>
+
+    <!-- Service errors -->
+    <string name="could_not_read_content_from_service">No se pudo leer el contenido pedido</string>
+    <string name="internal_toggle_api_server_error">El servicio ha retornado un error</string>
+    <string name="could_not_read_error_content_from_service">No se pudo leer el contenido del error</string>
+    <string name="could_not_connect_to_service">No hay conexión con el servicio</string>
+    <string name="error_writing_data">Ocurrió un error al procesar los datos</string>
+
+</resources>

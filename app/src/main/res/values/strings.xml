@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- New Strings -->
+
+    <string name="app_name">Togg</string>
+    <string name="api_service_path">https://www.toggl.com/api/v8</string>
+    <string name="websocket_api_service_path">wss://stream.toggl.com/ws</string>
+    <string name="analytics_notification">Togg is using Google Analytics to improve user experience. You can turn this option off in the settings.</string>
+    <string name="analytics_opt">analytics_opt</string>
+    <string name="analytics_first_time_key">analytics_first_time_key</string>
+    <string name="analytics_label">Turn on/off Google Analytics</string>
+    <string name="login">Login</string>
+    <string name="logging_in">Logging in &#8230;</string>
+    <string name="timer_hint">What are you working on?</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="details_view_collapsed_owner">details_view_collapsed_owner</string>
+    <string name="zero_time">0 sec</string>
+    <string name="editing_time_entry">Editing Time Entry</string>
+    <string name="drawer_open">Lateral menu open</string>
+    <string name="drawer_close">Lateral menu close</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="new_account_answer">New Account?</string>
+    <string name="already_have_an_account_answer">Already have an account?</string>
+    <string name="google_sign_in">Google Sign In</string>
+    <string name="google_sign_up">Google Sign Up</string>
+    <string name="logout">Log Out</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="empty_spinner">Empty</string>
+    <string name="default_spinner_prompt">Select</string>
+    <string name="no_project">No project</string>
+    <string name="empty_time_entries">There are no time entries</string>
+    <string name="empty_time_entries_list">Tap in timer or refresh the list to start</string>
+    <string name="beginning">Start</string>
+    <string name="stop">Stop</string>
+    <string name="date">Date</string>
+    <string name="end">End</string>
+    <string name="seconds_abbr">sec</string>
+    <string name="minutes_abbr">min</string>
+    <string name="hours_abbr">h</string>
+
+    <!-- Login -->
+
+    <string name="emailTextIsNotEmptyValidationError">You must enter an email</string>
+    <string name="passwordTextIsNotEmptyValidationError">You must enter a password</string>
+    <string name="passwordTextIsEqualValidationError">Password and it confirmation must be the same</string>
+
+    <!-- Settings -->
+
+    <string name="continuous_timer_notification_available_summary">This feature enables a notification in the action bar when a timer is running and shows its information</string>
+    <string name="continuous_timer_notification_available_title">Timer notification</string>
+    <string name="settings">Settings</string>
+    <string name="uppercase_settings">SETTINGS</string>
+
+    <!-- Service errors -->
+    <string name="could_not_read_content_from_service">Could not read content from service</string>
+    <string name="internal_toggle_api_server_error">Toggl API has returned an internal server error</string>
+    <string name="could_not_read_error_content_from_service">Could not read error content</string>
+    <string name="could_not_connect_to_service">There are no connection</string>
+    <string name="error_writing_data">There was a problem while reading data</string>
+
+    <!-- ################## OLD STRINGS ############### -->
+
+    <string name="refresh">Refresh</string>
+    <string name="account">Account</string>
+    <string name="task">Task</string>
+    <string name="tasks">Tasks</string>
+    <string name="billable">Billable</string>
+    <string name="planned">Planned</string>
+    <string name="tags">Tags</string>
+    <string name="project">Project</string>
+    <string name="projects">Projects</string>
+    <string name="planned_task">Planned Task</string>
+    <string name="log_out">Log Out</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="syncing">Synchronizing tasks...</string>
+    <string name="sync_failed">Synchronization failed</string>
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="save">Save</string>
+    <string name="set">Set</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="minute">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="log_in">Log in</string>
+    <string name="google_login">Google login</string>
+    <string name="create_account">Create a new account</string>
+    <!-- <string name="logging_in">Signing in...</string> -->
+    <string name="choose_tip">(choose)</string>
+    <string name="create_new">Create New</string>
+    <string name="no_description">(no description)</string>
+    <string name="new_project">New Project</string>
+    <string name="client">Client</string>
+    <string name="choose_client">Choose Client</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="no_internet_msg">You are currently offline. Proceed to your internet settings?</string>
+    <string name="notification_ticker">Time tracking started</string>
+    <string name="notification_expanded_title">Toggl</string>
+    <string name="notification_expanded_content">Task timer is ticking. Tap to get details.</string>
+    <string name="widget_title">toggl.com</string>
+    <string name="widget_not_signed_in">You need to sign in.</string>
+    <string name="widget_no_tasks">No tasks.</string>
+
+</resources>

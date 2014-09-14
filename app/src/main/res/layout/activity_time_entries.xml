@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    style="@style/Base.ContainerWithoutPadding"
+    tools:context=".activities.TimeEntriesActivity" >
+
+    <FrameLayout
+        android:id="@+id/layout_container"
+        style="@style/Base.ContainerWithoutPadding"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/form_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/soft_grey"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/timer_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/fragments_container"
+                style="@style/Base.ContainerWithoutPadding" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/lighten_grey"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

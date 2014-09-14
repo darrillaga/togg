@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@color/soft_grey</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dw_bg_splash</item>
+    </style>
+
+    <style name="AppTheme.Login">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/img_bg_login</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/darker_grey</item>
+    </style>
+
+    <style name="tasklist_running_duration" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#930010</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Base" />
+
+    <style name="BaseTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/middle_text</item>
+    </style>
+
+    <style name="BaseTextAppearance.MegaSmallText">
+        <item name="android:textSize">@dimen/megasmall_text</item>
+        <item name="android:textColor">@color/small_text</item>
+    </style>
+
+    <style name="BaseTextAppearance.UltraSmallText">
+        <item name="android:textSize">@dimen/ultrasmall_text</item>
+        <item name="android:textColor">@color/small_text</item>
+    </style>
+
+    <style name="BaseTextAppearance.Text">
+        <item name="android:textColor">@color/middle_text</item>
+    </style>
+
+    <style name="BaseTextAppearance.SmallText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/middle_text</item>
+    </style>
+
+    <style name="BaseTextAppearance.UltraBigText">
+        <item name="android:textSize">@dimen/ultra_big_text</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BaseTextAppearance.BigText">
+        <item name="android:textSize">@dimen/big_text</item>
+        <item name="android:textColor">@color/big_text</item>
+    </style>
+
+    <style name="Base.ContainerWithoutPadding">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Base.ContainerWithoutPadding.WithActionBarOverlay">
+        <item name="android:paddingTop">?attr/actionBarSize</item>
+    </style>
+
+    <style name="Base.ContainerTopBottomPadded" parent="Base.ContainerWithoutPadding">
+        <item name="android:paddingTop">@dimen/normal_padding</item>
+        <item name="android:paddingBottom">@dimen/normal_padding</item>
+    </style>
+
+    <style name="Base.ContainerLeftRightPadded" parent="Base.ContainerWithoutPadding">
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+    </style>
+
+    <style name="Base.Container" parent="Base.ContainerTopBottomPadded">
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+    </style>
+
+    <style name="Base.Container.SmallTopBottomPadded" parent="Base.ContainerWithoutPadding">
+        <item name="android:paddingTop">@dimen/small_padding</item>
+        <item name="android:paddingBottom">@dimen/small_padding</item>
+    </style>
+
+    <style name="Base.Container.SmallLeftRightPadded" parent="Base.ContainerWithoutPadding">
+        <item name="android:paddingRight">@dimen/small_padding</item>
+        <item name="android:paddingLeft">@dimen/small_padding</item>
+    </style>
+
+    <style name="Base.Container.SmallMargin" parent="Base.Container.SmallTopBottomPadded">
+        <item name="android:paddingRight">@dimen/small_padding</item>
+        <item name="android:paddingLeft">@dimen/small_padding</item>
+    </style>
+
+    <style name="Base.Container.WithActionBarOverlay">
+        <item name="android:paddingTop">?attr/actionBarSize</item>
+    </style>
+
+    <style name="Base.Container.White">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Base.Wrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Base.Button">
+        <item name="android:layout_width">@dimen/cell_size</item>
+        <item name="android:layout_height">@dimen/cell_size</item>
+    </style>
+
+    <style name="Base.Button.FullHeight">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Base.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Base.ProgressBar.Small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="Base.Wrapper.FullHeight">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Base.Wrapper.FullHeight.SmallTopBottomPadded" parent="Base.Wrapper.SmallTopBottomPadded">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Base.Wrapper.TopBottomPadded">
+        <item name="android:paddingTop">@dimen/normal_padding</item>
+        <item name="android:paddingBottom">@dimen/normal_padding</item>
+    </style>
+
+    <style name="Base.Wrapper.SmallTopBottomPadded">
+        <item name="android:paddingTop">@dimen/small_padding</item>
+        <item name="android:paddingBottom">@dimen/small_padding</item>
+    </style>
+
+    <style name="Base.Wrapper.LeftRightPadded">
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+    </style>
+
+    <style name="Base.Wrapper.FullPadded" parent="Base.Wrapper.TopBottomPadded">
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+    </style>
+
+    <style name="Base.Wrapper.SmallFullPadded" parent="Base.Wrapper.SmallTopBottomPadded">
+        <item name="android:paddingRight">@dimen/small_padding</item>
+        <item name="android:paddingLeft">@dimen/small_padding</item>
+    </style>
+
+    <style name="Base.Wrapper.FullWidth">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Base.Wrapper.FullWidth.SmallFullPadded" parent="Base.Wrapper.SmallFullPadded">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Base.Wrapper.FullWidth.SmallTopBottomPadded" parent="Base.Wrapper.SmallTopBottomPadded">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Base.Wrapper.FullWidth.TopBottomPadded" parent="Base.Wrapper.TopBottomPadded">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Base.Wrapper.FullWidth.FullPadded" parent="Base.Wrapper.FullPadded">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Base.Wrapper.FullWidth.LeftRightPadded" parent="Base.Wrapper.LeftRightPadded">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Base.FullWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Base.FullWidth.EditText">
+        <item name="android:inputType">text</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/dw_bg_edit_text</item>
+        <item name="android:textSize">@dimen/middle_text</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColor">@color/middle_text</item>
+    </style>
+
+    <style name="Base.FullWidth.Spinner">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/dw_bg_spinner</item>
+        <item name="android:textSize">@dimen/middle_text</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColor">@color/middle_text</item>
+    </style>
+
+    <style name="Base.FullWidth.EditText.GreyBackground">
+        <item name="android:background">@drawable/dw_bg_edit_text_grey_bg</item>
+    </style>
+
+    <style name="Base.FullWidth.Spinner.GreyBackground">
+        <item name="android:background">@drawable/dw_bg_spinner_grey_bg</item>
+        <item name="android:paddingRight">@dimen/medium_margin</item>
+    </style>
+
+    <style name="Base.FullWidth.EditText.TransparentBackground">
+        <item name="android:background">@drawable/textfield_default_holo_dark</item>
+        <item name="android:textColorHint">@color/lighten_grey</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

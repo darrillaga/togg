@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base.ContainerWithoutPadding"
+    android:background="@color/black" >
+
+    <WebView
+        android:id="@+id/web_view"
+        style="@style/Base.ContainerWithoutPadding" />
+
+    <FrameLayout
+        android:id="@+id/preloader"
+        style="@style/Base.ContainerWithoutPadding"
+        android:background="@color/black"
+        android:visibility="gone" >
+
+        <LinearLayout
+            style="@style/Base.Wrapper.FullPadded"
+            android:layout_gravity="center"
+            android:background="@color/soft_grey"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ProgressBar style="@style/Base.ProgressBar" />
+
+            <TextView
+                style="@style/Base.Wrapper"
+                android:layout_marginLeft="@dimen/small_margin"
+                android:text="Loading..." />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

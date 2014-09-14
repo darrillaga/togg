@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base.Wrapper.FullWidth"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/medium_margin"
+    android:paddingRight="@dimen/medium_margin" >
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/Base.FullWidth.EditText.TransparentBackground"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/Base.FullWidth.EditText.TransparentBackground"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/password_confirmation"
+        style="@style/Base.FullWidth.EditText.TransparentBackground"
+        android:hint="Password Confirmation"
+        android:inputType="textPassword" />
+
+    <com.t3coode.ui.ProgressButton
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="@dimen/medium_margin"
+        android:layout_marginRight="@dimen/medium_margin"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/green_button_state_background"
+        android:padding="8dp"
+        android:text="@string/sign_up" />
+
+    <LinearLayout
+        android:id="@+id/options_wrapper"
+        style="@style/Base.Wrapper.FullWidth"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:text="@string/already_have_an_account_answer"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button_google_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:text="@string/google_sign_up"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

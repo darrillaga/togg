@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Base.ContainerWithoutPadding"
+    android:background="@color/soft_grey" >
+
+    <!--
+         <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_list"
+        style="@style/Base.ContainerWithoutPadding"
+        android:cacheColorHint="@android:color/white"
+        android:divider="@color/soft_grey"
+        android:dividerHeight="@dimen/unity"
+        android:scrollbars="none"
+        app:ptrHeaderBackground="@color/soft_grey"
+        app:ptrHeaderSubTextColor="@android:color/black"
+        app:ptrHeaderTextColor="@android:color/black"
+        app:ptrRefreshableViewBackground="@color/soft_grey" />
+    -->
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/Base.ContainerWithoutPadding"
+        android:cacheColorHint="@android:color/white"
+        android:divider="@color/soft_grey"
+        android:dividerHeight="@dimen/unity"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/sticky_layer"
+        style="@style/Base.Wrapper.FullWidth"
+        android:background="@color/soft_grey"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/sticky_holder_wrapper"
+            style="@style/Base.Wrapper.FullWidth"
+            android:background="@color/soft_grey" >
+
+            <LinearLayout
+                android:id="@+id/sticky_holder_content"
+                style="@style/Base.Wrapper.FullWidth"
+                android:gravity="top"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/Base.Wrapper"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <ImageButton
+                    android:id="@+id/action_refresh"
+                    style="@style/Base.Wrapper"
+                    android:layout_centerInParent="true"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_menu_refresh" />
+
+                <ProgressBar
+                    android:id="@+id/refresh_progress_bar"
+                    style="@style/Base.ProgressBar.Small"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@android:id/empty"
+        style="@style/Base.Wrapper"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:text="@string/empty_time_entries_list"
+        android:textAppearance="@style/BaseTextAppearance.BigText"
+        android:textColor="@color/middle_text"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base.Wrapper.FullWidth.LeftRightPadded"
+    android:layout_height="@dimen/big_medium_size"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/small_margin"
+    android:paddingRight="@dimen/small_margin" >
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/Base.Wrapper"
+        android:textAppearance="@style/BaseTextAppearance.SmallText"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/Base.Wrapper"
+        android:layout_marginLeft="@dimen/small_margin"
+        android:textAppearance="@style/BaseTextAppearance.SmallText" />
+
+</LinearLayout>

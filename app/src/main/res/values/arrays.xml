@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="project_colors">
+
+        <!--
+        <item>#4DC3FF</item>
+        <item>#BC85E6</item>
+        <item>#DF7BAA</item>
+        <item>#F68D38</item>
+        <item>#B27636</item>
+        <item>#8AB734</item>
+        <item>#14A88E</item>
+        <item>#268BB5</item>
+        <item>#6668B4</item>
+        <item>#A4506C</item>
+        <item>#67412C</item>
+        <item>#3C6526</item>
+        <item>#094558</item>
+        <item>#BC2D07</item>
+        <item>#999999</item>
+        -->
+
+        <item>#7AC1DD</item>
+        <item>#AF8BD6</item>
+        <item>#DD8AB3</item>
+        <item>#DBAA89</item>
+        <item>#B28866</item>
+        <item>#B1C176</item>
+        <item>#69BCAC</item>
+        <item>#79B7C6</item>
+        <item>#8F95CC</item>
+        <item>#C4809B</item>
+        <item>#966A59</item>
+        <item>#779E5E</item>
+        <item>#6A98A0</item>
+        <item>#DD7272</item>
+        <item>#BFBBBA</item>
+    </array>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base.Container"
+    android:background="@color/soft_grey"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/Base.Wrapper"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:text="@string/uppercase_settings"
+        android:textAppearance="@style/BaseTextAppearance.MegaSmallText"
+        android:textColor="@color/darker_grey"
+        android:textStyle="bold" />
+
+    <include layout="@layout/layout_menu_separator" />
+
+    <LinearLayout
+        android:id="@+id/settings_continuous_timer_notification_available_wrapper"
+        style="@style/Base.Wrapper.FullWidth"
+        android:layout_marginTop="@dimen/small_margin"
+        android:addStatesFromChildren="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/Base.Wrapper"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/Base.Wrapper"
+                android:text="@string/continuous_timer_notification_available_title"
+                android:textAppearance="@style/BaseTextAppearance.SmallText"
+                android:textColor="@color/darker_grey" />
+
+            <TextView
+                style="@style/Base.Wrapper.SmallTopBottomPadded"
+                android:text="@string/continuous_timer_notification_available_summary"
+                android:textAppearance="@style/BaseTextAppearance.MegaSmallText" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/settings_continuous_timer_notification_available"
+            style="@style/Base.Wrapper"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:checked="true" />
+    </LinearLayout>
+
+</LinearLayout>

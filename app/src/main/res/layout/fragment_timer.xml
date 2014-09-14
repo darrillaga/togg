@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base.ContainerWithoutPadding"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        style="@style/Base.Wrapper.FullWidth"
+        android:layout_marginBottom="-7dp"
+        android:layout_marginTop="-7dp"
+        android:background="@color/darker_grey" >
+
+        <ProgressBar
+            android:id="@+id/timer_progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/toggl_timer"
+        style="@style/Base.Wrapper.FullWidth"
+        android:layout_height="@dimen/big_cell_size"
+        android:background="@drawable/dw_bg_toggl_timer"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/Base.Wrapper"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/zero_time"
+            android:textAppearance="@style/BaseTextAppearance.UltraBigText"
+            android:textColor="@color/white" />
+    </FrameLayout>
+
+    <LinearLayout
+        style="@style/Base.Wrapper.FullWidth"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/project_color"
+            android:layout_width="@dimen/small_margin"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/description"
+            style="@style/Base.FullWidth.EditText.GreyBackground"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cell_size"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:hint="@string/timer_hint" />
+
+        <ImageButton
+            android:id="@+id/more_button"
+            style="@style/Base.Wrapper.FullHeight"
+            android:layout_width="@dimen/cell_size"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:src="@drawable/ic_arow_down_min" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/details_wrapper"
+        style="@style/Base.Wrapper.FullWidth.LeftRightPadded"
+        android:layout_marginTop="@dimen/unity"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/small_margin"
+        android:paddingTop="@dimen/small_margin"
+        android:visibility="gone" >
+
+        <Spinner
+            android:id="@+id/project"
+            style="@style/Base.FullWidth.Spinner.GreyBackground"
+            android:layout_height="@dimen/big_medium_size"
+            android:gravity="center_vertical"
+            android:popupBackground="@color/soft_grey"
+            android:textColor="@color/middle_text" />
+
+        <LinearLayout
+            style="@style/Base.Wrapper.FullWidth"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/date"
+                style="@style/Base.FullWidth.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/medium_size"
+                android:hint="@string/date"
+                android:textSize="@dimen/megasmall_text" />
+
+            <TextView
+                style="@style/Base.Wrapper"
+                android:layout_marginLeft="@dimen/small_margin"
+                android:text="@string/from" />
+
+            <TextView
+                android:id="@+id/start_time"
+                style="@style/Base.FullWidth.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/medium_size"
+                android:layout_marginLeft="@dimen/small_margin"
+                android:hint="@string/beginning"
+                android:textSize="@dimen/megasmall_text" />
+
+            <TextView
+                style="@style/Base.Wrapper"
+                android:layout_marginLeft="@dimen/small_margin"
+                android:text="@string/to" />
+
+            <TextView
+                android:id="@+id/end_time"
+                style="@style/Base.FullWidth.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/medium_size"
+                android:layout_marginLeft="@dimen/small_margin"
+                android:hint="@string/end"
+                android:textSize="@dimen/megasmall_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

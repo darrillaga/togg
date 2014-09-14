@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <dimen name="layout_padding_top">20dp</dimen>
+    <dimen name="layout_padding_right">15dp</dimen>
+    <dimen name="layout_padding_bottom">20dp</dimen>
+    <dimen name="layout_padding_left">20dp</dimen>
+    <dimen name="label_text_size">15dp</dimen>
+    <dimen name="label_padding">11dp</dimen>
+    <dimen name="label_padding_left">10dp</dimen>
+    <dimen name="label_padding_right">30dp</dimen>
+    <dimen name="label_padding_top">10dp</dimen>
+    <dimen name="listitem_text_size">14dp</dimen>
+    <dimen name="listitem_margin_right">15dp</dimen>
+    <dimen name="listitem_padding_left">10dp</dimen>
+    <dimen name="listitem_note_text_size">11dp</dimen>
+    <dimen name="listitem_running_duration_text_size">12dp</dimen>
+    <dimen name="login_edittext_size">15dp</dimen>
+    <dimen name="login_edittext_padding_right">8dp</dimen>
+    <dimen name="task_timer_text_size">32dp</dimen>
+    -->
+
+    <dimen name="action_bar_size">48dp</dimen>
+    <!-- <dimen name="action_bar_size">?attr/actionBarSize</dimen> -->
+    <dimen name="normal_padding">16dp</dimen>
+    <dimen name="normal_margin">16dp</dimen>
+    <dimen name="normal_negative_margin">-16dp</dimen>
+    <dimen name="medium_margin">24dp</dimen>
+    <dimen name="medium_negative_margin">-24dp</dimen>
+    <dimen name="big_negative_margin">-36dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="megasmall_margin">4dp</dimen>
+    <dimen name="negative_megasmall_margin">-4dp</dimen>
+    <dimen name="ultrasmall_margin">2dp</dimen>
+    <dimen name="cell_margin">48dp</dimen>
+    <dimen name="cell_size">48dp</dimen>
+    <dimen name="medium_size">24dp</dimen>
+    <dimen name="big_medium_size">36dp</dimen>
+    <dimen name="big_cell_size">72dp</dimen>
+    <dimen name="megabig_cell_size">92dp</dimen>
+    <dimen name="ultrabig_text">24sp</dimen>
+    <dimen name="big_text">22sp</dimen>
+    <dimen name="ultra_big_text">32sp</dimen>
+    <dimen name="middle_text">18sp</dimen>
+    <dimen name="small_text">16sp</dimen>
+    <dimen name="megasmall_text">14sp</dimen>
+    <dimen name="ultrasmall_text">12sp</dimen>
+    <dimen name="big_text_wrapper_height">24dp</dimen>
+    <dimen name="text_separation">4dp</dimen>
+    <dimen name="unity">1dp</dimen>
+
+    <!-- Specific dimens -->
+
+    <dimen name="project_color_height">52dp</dimen>
+    <dimen name="notification_project_color_height">64dp</dimen>
+    <dimen name="notification_project_color_width">64dp</dimen>
+    <dimen name="project_color_margin_top">6dp</dimen>
+    <dimen name="time_entries_list_item_time_width">54dp</dimen>
+    <dimen name="widget_radius">4dp</dimen>
+    <dimen name="widget_height">72dp</dimen>
+
+</resources>
